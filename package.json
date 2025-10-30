@@ -1,0 +1,29 @@
+{
+  "name": "rn-helper-cli",
+  "version": "1.1.0",
+  "description": "Provides simple scripts helping with React Native development",
+  "bin": {
+    "startMetroWithCustomPort": "scripts/adb/run/runStartMetroWithCustomPort.js",
+    "requestRnDevMenu": "scripts/adb/run/runRequestRnDevMenu.js"
+  },
+  "type": "module",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriyGalyanov/rn-helper-cli.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "iOS",
+    "Android",
+    "CLI",
+    "ADB"
+  ],
+  "author": "https://github.com/DmitriyGalyanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DmitriyGalyanov/rn-helper-cli/issues"
+  },
+  "homepage": "https://github.com/DmitriyGalyanov/rn-helper-cli#readme"
+}
