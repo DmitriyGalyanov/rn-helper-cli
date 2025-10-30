@@ -1,6 +1,11 @@
 # rn-helper-cli
 Provides simple scripts helping with React Native development
 
+## Setup
+1. Run `yarn add -D rn-helper-cli`
+2. Add needed Scripts to Project's package.json using following Format: `"[yoursScriptName]": "[libsScriptName]"`, eg: `"startMetro": "startMetroWithCustomPort"`
+3. Use running `yarn [yoursScriptName] [args if required]`, eg: `yarn startMetro 8800`
+
 ## Scripts
 ### `startMetroWithCustomPort [PORT]`
 1. (Connects)[https://www.reddit.com/r/reactnative/comments/ryrntz/what_does_adb_reverse_tcp8081_tcp8081_command_do/] all found ADB Devices to provided Port
